@@ -1,5 +1,5 @@
 import unittest
-from Main import check_guess
+from main import check_guess
 
     
 class TestGuessingGame(unittest.TestCase):
@@ -16,4 +16,5 @@ class TestGuessingGame(unittest.TestCase):
         self.assertEqual(result, "Correct!")
 
 if __name__ == "__main__":
+
     unittest.main()
